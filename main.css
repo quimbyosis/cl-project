@@ -1,0 +1,199 @@
+/* Web fonts -------------*/
+
+@font-face {
+	font-family: 'Cinzel', Helvetica, serif;
+
+}
+
+/* Base Styles -------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	background-color: #2a9dea; 
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+
+h1 {
+	font-size: 5.625rem;
+	color: #fff;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, .8);
+	background-color: rgba(255, 255, 255, .2);
+}
+
+nav {
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #64defc;
+	margin: -15px -15px;
+}
+
+nav li {
+	font: 'Cinzel', Helvetica, sans-serif;
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+ul {
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	list-style: none;
+}
+
+ul li {
+	font-family: 'Cinzel', Helvetica, sans-serif;	
+}
+
+
+
+
+
+/* Pseudo-classes ------------*/
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: #5d00ff;
+}
+
+a:hover {
+	color: #c300ff;
+}
+
+a:active {
+	color: #077727;
+}
+
+::-webkit-input-placeholder {
+	font-family:  'Cinzel', Helvetica, sans-serif;
+}
+
+/* Main Styles -------------*/
+
+.index-header {
+	/*padding: 0;*/
+	height: 600px;
+	margin: -10px -20px;
+	background: url('./images/limber_header.jpg') no-repeat center;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.press-header {
+	height: 600px;
+	padding: 0;
+	margin: -10px -20px;
+	background: url('./images/rockypuffy.jpg') no-repeat center;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.platform-header {
+	height: 600px;
+/*	padding-top: 0;*/
+	margin: -10px -20px;
+	background: url('./images/new_Rushmore.jpg') no-repeat center;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.gear-header {
+	padding-top: 0;
+	margin: -10px -20px;
+	height: 600px; 
+	background: url('./images/meowwecan.jpg') no-repeat center;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+#logo {
+	text-align: center;
+	clear: both;
+}
+
+#motto {
+	text-align: center;
+	margin: 0;
+	color: 
+} 
+
+#inputs {
+	text-align: center;
+	clear: both;
+	padding-bottom: 10px;
+}
+
+#mail {
+	margin: 15px 10px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#zip {
+	margin: 15px 10px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#meow {
+	margin: 15px 10px;
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	font-weight: bold;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+#join-us {
+	text-align: center;
+	margin: auto;
+	display: block;
+	width: 150px;
+	background-color: rgba(255, 255, 255, .2);
+	/*text-shadow: 0 1px 1px rgba(255, 255, 255, .8);*/
+}
+
+#video {
+	text-align: center;
+	padding: 30px 20px 20px;
+}
+
+#inspiration {
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+}
+
+#press-links {
+	text-align: center;
+	color: black;
+}
+
+.nav-bar {
+	font-family: 'Cinzel', Helvetica, sans-serif;
+	margin: 0 -15px;
+}
+
+.footer {
+	text-align: center;
+}
+
+/* Layout Styles -------------*/
+
+/* Floated Columns -------------*/
+
+/* Float Clearfix???? --------------*/
+
+/* Media Queries --------------*/
+
