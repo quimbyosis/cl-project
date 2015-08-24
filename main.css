@@ -13,7 +13,7 @@
 
 
 body {
-	font-family: 'Cinzel', Helvetica, sans-serif;
+	font-family: 'Cinzel', Helvetica, serif;
 	background-color: #2a9dea; 
 }
 
@@ -21,7 +21,6 @@ body {
 h1,
 h2,
 h3 {
-	font-family: 'Cinzel', Helvetica, sans-serif;
 	text-align: center;
 }
 
@@ -35,7 +34,6 @@ h1 {
 }
 
 nav {
-	font-family: 'Cinzel', Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	background-color: #64defc;
@@ -43,22 +41,13 @@ nav {
 }
 
 nav li {
-	font: 'Cinzel', Helvetica, sans-serif;
 	display: inline-block;
 	padding: 15px 10px;
 }
 
 ul {
-	font-family: 'Cinzel', Helvetica, sans-serif;
 	list-style: none;
 }
-
-ul li {
-	font-family: 'Cinzel', Helvetica, sans-serif;	
-}
-
-
-
 
 
 /* Pseudo-classes ------------*/
@@ -69,11 +58,7 @@ a:link {
 }
 
 a:visited {
-	color: #5d00ff;
-}
-
-a:hover {
-	color: #c300ff;
+	color: black;
 }
 
 a:active {
@@ -118,7 +103,7 @@ a:active {
 	margin: -10px -20px;
 	height: 600px; 
 	background: url('./images/meowwecan.jpg') no-repeat center;
-	background-size: cover;
+	/*background-size: cover;*/
 	vertical-align: middle;
 }
 
@@ -181,7 +166,6 @@ a:active {
 }
 
 .nav-bar {
-	font-family: 'Cinzel', Helvetica, sans-serif;
 	margin: 0 -15px;
 }
 
