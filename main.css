@@ -266,6 +266,10 @@ a:active, a:hover, a:focus {
 /* GEAR PAGE -----------------*/
 
 
+#wecat {
+	padding-top: 50px;
+}
+
 #gear-meow {
 	text-align: center;
 	color: #fddc93;
@@ -295,6 +299,10 @@ a:active, a:hover, a:focus {
 
 /* PRESS PAGE -------------------*/
 
+
+#meowtime {
+	padding-top: 50px;
+}
 
 #press-links {
 	text-align: center;
