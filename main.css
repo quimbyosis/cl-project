@@ -149,6 +149,7 @@ a:active, a:hover, a:focus {
 .wrapper {
 	max-width: 940px;
 	margin: 0 auto;
+	overflow: auto;
 	/*padding: 0 5%;*/
 }
 
@@ -255,6 +256,7 @@ a:active, a:hover, a:focus {
 	margin: auto;
 	clear: both;
 	padding-bottom: 50px;
+	overflow: hidden;
 }
 
 #life {
