@@ -57,7 +57,6 @@ ul {
 	text-align: center;
 }
 
-
 ul li img {
 	max-width: 45%;
 }
@@ -81,6 +80,8 @@ footer p {
 
 /* PSEUDO-CLASSES ------------*/
 
+
+
 a:link {
 	text-decoration: none;
 	color: black;
@@ -90,7 +91,9 @@ a:visited {
 	color: black;
 }
 
+
 a:active, a:hover {
+
 	color: #077727;
 }
 
@@ -100,8 +103,8 @@ a:active, a:hover {
 
 /* MAIN STYLES -------------*/
 
+
 .index-header {
-	/*padding: 0;*/
 	height: 600px;
 	margin: -10px -20px;
 	background: url('./images/limber_header.jpg') no-repeat center;
@@ -120,7 +123,6 @@ a:active, a:hover {
 
 .platform-header {
 	height: 600px;
-/*	padding-top: 0;*/
 	margin: -10px -20px;
 	background: url('./images/new_Rushmore.jpg') no-repeat center;
 	background-size: cover;
@@ -170,22 +172,26 @@ a:active, a:hover {
 	padding-bottom: 10px;
 }
 
-#mail {
+.fields {
 	margin: 15px 10px;
-	box-shadow: 2px 2px 5px #888888;
-}
-
-#zip {
-	margin: 15px 10px;
+	height: 35px;
+	width: 150px;
+	border: 1px solid #000;
+	border-radius: 5px;
 	box-shadow: 2px 2px 5px #888888;
 }
 
 #meow {
 	margin: 15px 10px;
+	height: 35px;
+	width: 60px;
+	background-color: #fff;
 	font-family: 'Cinzel', Helvetica, sans-serif;
 	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 5px;
 	box-shadow: 2px 2px 5px #888888;
-}
+} 
 
 #join-us {
 	text-align: center;
@@ -193,13 +199,13 @@ a:active, a:hover {
 	display: block;
 	width: 150px;
 	background-color: rgba(255, 255, 255, .2);
-	/*text-shadow: 0 1px 1px rgba(255, 255, 255, .8);*/
 }
 
 #video {
 	text-align: center;
 	padding: 30px 20px 20px;
 }
+
 
 /* PLATFORM PAGE -------------------*/
 
@@ -213,6 +219,7 @@ a:active, a:hover {
 
 #plat-hl {
 	color: #fff;
+
 }
 
 #issues {
@@ -254,6 +261,7 @@ a:active, a:hover {
 	list-style: none;
 }
 
+
 #gallery li {
 	float: left;
 	width: 45%;
@@ -275,8 +283,6 @@ a:active, a:hover {
 	text-align: center;
 	color: black;
 }
-
-
 
 
 
