@@ -290,14 +290,6 @@ a:active, a:hover, a:focus {
 	margin: 2.5%;
 }
 
-#gallery li p {
-	text-align: center;
-	font-weight: bold;
-	background-color: #64defc;
-	width: 45%;
-	margin-top: -5px;
-}
-
 #overlay {
 	background: rgba(0,0,0,0.7);
 	width: 100%;
