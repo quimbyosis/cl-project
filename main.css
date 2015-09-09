@@ -68,7 +68,8 @@ ul li p {
 p {
 	max-width: 60%;
 	text-indent: 30px;
-	text-align: justify;
+	text-align: justify
+	font-size: 0.825rem;
 	margin: auto;
 }
 
@@ -80,9 +81,9 @@ footer p {
 hr {
 	margin: 50px auto;
 	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-    clear: both;
+    	height: 1px;
+    	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    	clear: both;
 }
 
 
@@ -244,7 +245,6 @@ iframe {
 #issues p {
 	float: right;
 	clear: right;
-	font-size: 0.825rem;
 }
 
 #matters {
@@ -330,9 +330,59 @@ iframe {
 }
 
 #articles {
+	font-size: 1rem;
 	font-weight: bold;
+	padding-bottom: 25px;
 }
 
 
 /* MEDIA QUERIES --------------*/
 
+@media screen and (max-width: 480px) {
+
+	nav li {
+		display: block;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	/* INDEX PAGE ---*/
+
+	iframe {
+		max-width: 280px; 
+		max-height: 157.7px; 
+	}
+
+	.fields {
+		width: 100px; 
+		height: 25px;
+	}
+
+	#meow {
+		width: 50px;
+		height: 25px;
+	}
+
+	/* PRESS PAGE ---*/
+
+	#articles {
+		max-width: 80%;
+	}
+
+	#press-links {
+		max-width: 80%;
+	}
+
+	/* PLATFORM PAGE ---*/
+
+	#voter {
+		max-width: 
+	}
+
+}
